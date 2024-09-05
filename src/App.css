@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    background-color:  #ffbeea;
+    padding: 30px;
+    color: #333;
+    background-image: url('./img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto 300px;
+    background-color:  #bc8a5f;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #713200;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 3px;
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2b1300;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #542600;
+}
+
+
+.todo {
+  background-color: #cf9362;
+  box-shadow: 0 0 10px rgb(0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.complete {
+    background-color: #713200;
+}
+
+.remove {
+    background-color: #713200;
+}
+
+.todo-form {
+    padding-bottom: 1.5rem;
+}
+
+input,
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.filter,
+.search {
+    border-bottom: 2px solid #542600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options {
+    flex: 1 1 0;
+}
